@@ -1,7 +1,7 @@
 // This #include statement was automatically added by the Particle IDE.
 #include "PID-AutoTune/PID-AutoTune.h"
 
-#include <pid.h>
+#include <PID-AutoTune/pid.h>
 
 byte ATuneModeRemember=2;
 double input=80, output=50, setpoint=180;
