@@ -1,7 +1,3 @@
-#ifndef PID-AutoTune
-#define PID-AutoTune
-#define LIBRARY_VERSION	0.0.1
-
 class PID_ATune
 {
 
