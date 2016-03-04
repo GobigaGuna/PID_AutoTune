@@ -1,6 +1,11 @@
 #include <PID-AutoTune/PID-AutoTune.h>
 #include "application.h"
 
+// ************************************************
+// This library relies on the PID library
+// You must not forget to include it on your own!
+// ************************************************
+
 PID_ATune::PID_ATune(double* Input, double* Output)
 {
 	input = Input;
